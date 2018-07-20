@@ -21,7 +21,7 @@ We combine our 4 Classifier ( 2 for FT(svm & NN) and LM(svm & NN) method ) with 
 * [MatLab](https://mathworks.com)
 * [PHP](https://php.net) 
 * JS
-
+* [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/) - SVM Library 
 ## Authors
 
 * **MOHAMMED BOUKHALFA** - [bmm](https://github.com/mboukhalfa)
