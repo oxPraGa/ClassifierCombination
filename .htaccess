@@ -1,0 +1,13 @@
+Options -Indexes
+#DirectoryIndex 
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^accueil$ http://localhost/pfe/pages/accueil.php [L] 
+RewriteRule ^application$ http://localhost/pfe/pages/application.php [L] 
+RewriteRule ^application/simple$ http://localhost/pfe/pages/application.php?type=simple [L] 
+RewriteRule ^application/avance$ http://localhost/pfe/pages/application.php?type=avance [L] 
+RewriteRule ^application/api$ http://localhost/pfe/pages/application.php?type=api [L] 
+RewriteRule ^application/simple/bdd1$ http://localhost/pfe/pages/application.php?type=simple&bdd=bdd1 [L] 
+RewriteRule ^memoire$ http://localhost/pfe/pages/memoire.php [L] 
+
+

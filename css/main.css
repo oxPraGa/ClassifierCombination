@@ -1,0 +1,20 @@
+@font-face {
+    font-family: AppleFont;
+    src: url(../lib/font/apple/text.ttf);
+}
+@font-face {
+    font-family: AppleFont1;
+    src: url(../lib/font/apple/ultralight.ttf);
+}
+@font-face {
+    font-family: STC;
+    src: url(../lib/font/stc/stc.otf);
+}
+
+html:lang(ar) BODY {
+    font-family: STC, sans-serif !important;
+    }
+html:lang(fr) BODY {
+    font-family: AppleFont, sans-serif !important;
+    font-weight: lighter;
+}

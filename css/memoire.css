@@ -1,0 +1,8 @@
+ul > li > span:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+aside {
+    padding: 20px;
+    border: 0px solid #f00;
+}

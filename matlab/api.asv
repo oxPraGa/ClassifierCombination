@@ -1,0 +1,28 @@
+function [ output_args ] = api( image , descipteur )
+    %%%%%%%%%%%%%%%%%%%%%%%% xml %%%%%%%%%%%%%%%%%%%%%%%%%%
+    docNode = com.mathworks.xml.XMLUtils.createDocument... 
+        ('root_element')
+    docRootNode = docNode.getDocumentElement;
+    %%%%%%%%%%%%%%%%%%%%%%%% end xml%%%%%%%%%%%%%%%%%%%%%%%
+    I=imread(Ilien);
+    I=im2bw(I);
+    I=~I;
+    addpath(genpath('./extrait carcteristique'));
+    % descipeur lm
+    if strcmp (descipreur , 'lm')
+     [ Vect_lm ] = leg_mom(image);
+     for( 
+        c=docNode.createElement('lm');
+        thisElement = docNode.createElement('val'); 
+        c.appendChild... 
+            (docNode.createTextNode(sprintf('%s','kkkk')));
+        thisElement.appendChild(c);
+        docRootNode.appendChild(thisElement);
+    end
+    
+    
+    xmlFileName = ['api.xml'];
+xmlwrite(xmlFileName,docNode);
+
+end
+

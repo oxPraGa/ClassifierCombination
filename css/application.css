@@ -1,0 +1,64 @@
+.nav-tabs > li > a{
+color: #777;
+
+}
+#deposer {
+	border: 4px dashed #ccc;
+	border-radius: 2px;
+	padding: 20px;
+	margin: 30px;
+	
+}
+#deposer > .bigTxt {
+	color: #ccc;
+	font-size: 1.5em;
+}
+
+#deposer > .smallTxt {
+	margin-bottom:0;
+	color: #ddd;
+	font-size: 1em;
+}
+#deposer  > span{
+	margin: 10px;
+	padding: 10px;
+	color: #ddd;
+	font-size:6em;
+	
+}
+
+/***** model analyser image ***/
+ 
+ .ligne_verticale
+{
+    width:2px;
+    background-color: #33ccff;
+    box-shadow : 2px 0px 8px #33ccff;/*, -2px 0px 5px white;*/
+	position:absolute;
+	padding:auto;
+	margin: auto;
+}
+
+#EA1 {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.well {
+    font-family: Traditional Arabic;
+    padding: 0;
+    font-weight: lighter;
+    font-size: 5em;
+}
+.bel ,.classe{
+    font-family: Traditional Arabic,AppleFont, sans-serif !important;
+}
+/**************** draw ********************************/
+.draw:hover {
+    border: 4px solid #ccc;
+    cursor:pointer;
+    box-shadow: 0 -4px 8px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.draw {
+    border: 4px solid #ddd;
+    cursor:pointer;
+    box-shadow: 0 -4px 8px 0 rgba(221,221,221,0.2),0 4px 8px 0 rgba(221,221,221,0.2);
+}

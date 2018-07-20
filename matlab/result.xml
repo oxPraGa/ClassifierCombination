@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root_element>
+   <nn_lm>
+      <classe>8</classe>
+      <bel>2.738491e-001</bel>
+   </nn_lm>
+   <nn_ft>
+      <classe>8</classe>
+      <bel>6.971837e-001</bel>
+   </nn_ft>
+   <svm_lm>
+      <classe>8</classe>
+      <bel>8.124182e-001</bel>
+   </svm_lm>
+   <svm_ft>
+      <classe>8</classe>
+      <bel>6.971837e-001</bel>
+   </svm_ft>
+   <voteMajoritaire>
+      <classe>8</classe>
+      <bel>1</bel>
+   </voteMajoritaire>
+   <borda>
+      <classe>8</classe>
+      <bel>6.000000e-001</bel>
+   </borda>
+   <DS>
+      <classe>8</classe>
+      <bel>5.252413e-003</bel>
+   </DS>
+   <BKS>
+      <classe>8</classe>
+      <bel>1</bel>
+   </BKS>
+</root_element>

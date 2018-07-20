@@ -1,0 +1,13 @@
+function [ classe,sortie ] = svm_ft( Vect_ft,model,minmax_s)
+
+Vect_ft = mapminmax('apply',Vect_ft,minmax_s);
+sortie = sim(net, Vect_ft )';
+    [~,~,pp]=svmpredict(double(0),ft_ts_n(:,i)',model_ft,'-b 1 -q');
+    for k=1:10
+        sortie(model_ft.Label(k))=pp(k);
+    end
+
+[~,classe]=max(sortie);
+
+end
+
