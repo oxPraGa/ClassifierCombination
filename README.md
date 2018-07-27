@@ -27,3 +27,6 @@ We combine our 4 Classifier ( 2 for FT(svm & NN) and LM(svm & NN) method ) with 
 * **MOHAMMED BOUKHALFA** - [bmm](https://github.com/mboukhalfa)
 
 * **HOUSSEM EDDINE ALIOUCHE** - [PraGa](https://github.com/oxPraGa/)
+
+## Image 
+![alt text](Class.png)
