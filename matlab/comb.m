@@ -12,6 +12,7 @@ rmpath(genpath('./extrait carcteristique'));
 addpath(genpath('./simuler'));
 [ classe_nn_ft,sortie_nn_ft ] = nn_ft( Vect_ft,net_ft);
 [ classe_nn_lm,sortie_nn_lm ] = nn_lm( Vect_lm,net_lm);
+
 [ classe_svm_ft,sortie_svm_ft ] = svm_ft( Vect_ft,model_ft,minmax_svm_ft_s);
 [ classe_svm_lm,sortie_svm_lm ] = svm_lm( Vect_lm,model_lm);
 rmpath(genpath('./simuler'));

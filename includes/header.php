@@ -5,7 +5,7 @@ if(!isset($_SESSION['lang'])){
     $_SESSION['langAffich']='Français';  
 }
 session_id();
-require_once('/lang/' . $_SESSION["lang"] . '.php');
+require_once('lang/' . $_SESSION["lang"] . '.php');
 ?>
 
 

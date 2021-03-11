@@ -32,7 +32,7 @@
 	<div class="col-xs-2 col-sm-3 col-md-4 "></div>	
 </div>
 
-<?php require_once('/../'.$config['paths']['includes'] . '/application/draw.php') ?>
+<?php require_once('../'.$config['paths']['includes'] . '/application/draw.php') ?>
 <!-- Modal -->
 <div id="analyserImage" class="modal fade" role="dialog">
     <div class="modal-dialog">

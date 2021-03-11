@@ -1,6 +1,8 @@
 <?php
+require_once('../config/config.php');
 set_time_limit ( 120 );
-exec("matlab -nodisplay -nosplash -nodesktop -wait -r cd('C:\\xampp\\htdocs\\pfe\\matlab\\'),comb('C:\\xampp\\htdocs\\pfe\\uploads\\".$_POST['file_name']."')");
+$cmd = "matlab -nodisplay -nosplash -nodesktop -wait -r cd('".PFE_MATLAB_DIR."'),comb('".UPLOAD_DIR."\\".$_POST['file_name']."')";
+exec($cmd);
 $File=fopen('../../matlab/result.txt','r');
 fscanf($File,'%d',$classe);
 fclose($File);
